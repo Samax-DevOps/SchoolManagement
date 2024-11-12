@@ -1,0 +1,5 @@
+pytest
+pytest-xdist
+selenium
+chromedriver-autoinstaller
+pyvirtualdisplay

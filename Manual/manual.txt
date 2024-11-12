@@ -1,0 +1,10 @@
+There are two environments: staging and production
+
+In order to run test cases in production:
+    pytest testcasesfolderpath --environment=production
+    --By default it runs on production if you do not specify the environment
+
+In order to define the browser:- chrome, edge, firefox
+    pytest testcasesfolderpath --browser=chrome
+    --By default it runs chrome if you do not specify the browser
+
