@@ -4,3 +4,4 @@ selenium
 chromedriver-autoinstaller
 pyvirtualdisplay
 pytest-html
+openpyxl
