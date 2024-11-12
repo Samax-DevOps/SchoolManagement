@@ -3,3 +3,4 @@ pytest-xdist
 selenium
 chromedriver-autoinstaller
 pyvirtualdisplay
+pytest-html
