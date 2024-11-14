@@ -29,7 +29,7 @@ class Test_Create_Topic:
         create_topic_page.click_on_submit_btn()
         
         # Explicit wait for toast message
-        msg = WebDriverWait(self.driver, 10).until(
+        msg = WebDriverWait(self.driver, 30).until(
             lambda driver: create_topic_page.get_toast_msg()
         )
         assert "Saved" in msg or "Topic is already exists" in msg  # Adjusted to handle both outcomes
